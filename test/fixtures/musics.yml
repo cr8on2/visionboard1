@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  mp3: MyString
+  caption: MyString
+  genre: MyString
+  user_id: 1
+  slideshow_id: 1
+
+two:
+  mp3: MyString
+  caption: MyString
+  genre: MyString
+  user_id: 1
+  slideshow_id: 1

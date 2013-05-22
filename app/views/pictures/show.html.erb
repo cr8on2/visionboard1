@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Img:</b>
+  <%= image_tag @picture.img, width: 480 %>
+</p>
+
+<p>
+  <b>Caption:</b>
+  <%= @picture.caption %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @picture.category %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @picture.user_id %>
+</p>
+
+<p>
+  <b>Slideshow:</b>
+  <%= @picture.slideshow_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_picture_path(@picture) %> |
+<%= link_to 'Back', pictures_path %>

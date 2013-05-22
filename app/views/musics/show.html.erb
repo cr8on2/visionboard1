@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Mp3:</b>
+  <%= @music.mp3 %>
+</p>
+
+<p>
+  <b>Caption:</b>
+  <%= @music.caption %>
+</p>
+
+<p>
+  <b>Genre:</b>
+  <%= @music.genre %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @music.user_id %>
+</p>
+
+<p>
+  <b>Slideshow:</b>
+  <%= @music.slideshow_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_music_path(@music) %> |
+<%= link_to 'Back', musics_path %>
